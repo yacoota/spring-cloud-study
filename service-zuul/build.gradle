@@ -1,0 +1,12 @@
+dependencies {
+    compile 'org.springframework.cloud:spring-cloud-starter-zuul'
+    compile 'org.springframework.cloud:spring-cloud-starter-zipkin'
+}
+
+jar {
+    manifest {
+        attributes("Main-Class": "com.cacoota.cloud.ServiceZuulApplication")
+        attributes("Class-Path": configurations.compile.collect { "lib/$it.name" }.join(' '))
+    }
+}
+

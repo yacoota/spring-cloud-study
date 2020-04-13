@@ -1,0 +1,10 @@
+dependencies {
+    compile 'org.springframework.cloud:spring-cloud-starter-feign'
+}
+
+jar {
+    manifest {
+        attributes("Main-Class": "com.cacoota.cloud.ServiceFeignApplication")
+        attributes("Class-Path": configurations.compile.collect { "lib/$it.name" }.join(' '))
+    }
+}
