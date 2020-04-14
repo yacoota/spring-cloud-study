@@ -10,9 +10,9 @@ spring:
   cloud:
     config:
       label: master
-    server:
-      git:
-        uri: https://github.com/forezp/SpringcloudConfig.git
-        searchPaths: respo
-        username:
-        password:
+      server:
+        git:
+          uri: https://github.com/forezp/SpringcloudConfig.git
+          searchPaths: respo
+          username:
+          password:
