@@ -1,8 +1,8 @@
 rootProject.name = 'spring-cloud-study'
 include 'eureka-server'
 include 'service-hi'
-include 'service-ribbon'
-include 'service-zuul'
-include 'service-sleuth'
-include 'service-config'
+//include 'service-ribbon'
+//include 'service-zuul'
+//include 'service-sleuth'
+//include 'service-config'
 
