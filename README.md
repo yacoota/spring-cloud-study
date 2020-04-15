@@ -16,7 +16,8 @@ springcloud 基本开发组件集成学习知识整理总结
 
 > 3、master分支：
 - 保持与springcloud和springboot配套版本同步更新
-- JDK 13
+- JDK 8
+受到eureka的限制，不能升级更高的jdk。
 
 > 4、springcloud和springboot的版本需要配套使用
 
