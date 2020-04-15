@@ -1,8 +1,12 @@
 dependencies {
     compile 'org.springframework.cloud:spring-cloud-starter-sleuth'
-    //compile 'org.springframework.cloud:spring-cloud-sleuth-zipkin'
-    //compile 'org.springframework.cloud:spring-cloud-sleuth-stream:1.3.6.RELEASE'
-    //compile 'org.springframework.cloud:spring-cloud-sleuth-zipkin-stream:1.3.6.RELEASE'
+    compile 'org.springframework.cloud:spring-cloud-sleuth-zipkin'
+    compile 'org.springframework.cloud:spring-cloud-sleuth-stream:1.3.6.RELEASE'
+    compile 'org.springframework.cloud:spring-cloud-sleuth-zipkin-stream:1.3.6.RELEASE'
+    compile 'org.springframework.cloud:spring-cloud-starter-stream-rabbit'
+    compile 'io.zipkin.java:zipkin-autoconfigure-ui:2.12.9'
+    compile 'org.springframework.boot:spring-boot-starter-jdbc'
+    compile 'mysql:mysql-connector-java'
 }
 
 jar {
